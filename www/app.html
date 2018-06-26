@@ -4,20 +4,22 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+<style type="text/css">
+   body { background: grey !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
     <title>Arduino App</title>
   </head>
   <body>
-    <div align="center" style="margin-top: 5%; margin-left: 3%; margin-right: 3%">
+        
+    <div align="center" style="margin-top: 50%; margin-left: 3%; margin-right: 3%">
 
-            <button type="button" id="on" class="btn btn-success btn-lg btn-block">Ligar</button>
-            <button type="button" id="off" class="btn btn-secondary btn-lg btn-block">Desligar</button>
+            <button type="button" id="on" class="btn btn-success btn-lg btn-block" style="height: 50px;">Ligar</button>
+            <button type="button" id="off" class="btn btn-secondary btn-lg btn-block" style="height: 50px;">Desligar</button>
             
         </div>
-
 
     
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
@@ -25,7 +27,5 @@
    <script type="text/javascript" src="js/app.js"></script>
     
   </body>
-  <script>
-  
-</script>
+
 </html>
